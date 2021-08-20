@@ -1,0 +1,132 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro:wght@700&display=swap');
+
+
+body{
+    max-width:90%;
+    background-color: #fff;
+}
+
+.logo_image{height: 50px;}
+
+nav{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding:10px;
+    margin: 10px 50px;
+}
+
+.nav_items li {list-style: none;
+display: inline-block;
+margin:10px 30px;
+font-family: 'Source Sans Pro', sans-serif;
+color:#575454;
+}
+
+.items:hover {cursor: pointer;
+    color:#5243C0;
+text-decoration: underline;}
+
+.account_button{padding:20px 40px;
+    border-radius: 20px;
+    background-color: #FED7DA;
+    color: #5243C0;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.7em;
+cursor: pointer;}
+
+.account_button:hover{transform: scale(1.2);}
+
+li{padding: 0px 10px;}
+
+nav{padding: 20px 20px;}
+
+.heading{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:700;
+font-size: 5em;}
+
+.fas {font-size:0.15em;
+margin-left: -14px;
+color:#5243C0;}
+
+.description{margin-top:-20px;
+    margin-left:110px ;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#708090;
+    font-size: 0.8em;
+    line-height: 2;
+transform: scaleX(1.2);}
+
+#new_account{display: flex;
+align-items: center;
+margin-top:30px;
+margin-left: 0px;
+}
+
+
+.arr{height: 40px;
+    margin-left: 80px;
+    cursor: pointer;
+   }
+
+   .arr:hover{transform: scale(2);}
+
+
+#left_side{margin-left: 150px;
+margin-top:50px;}
+
+
+.far{color: #d6cfcf;
+    font-size: 1.8em;
+background-color: #fff;
+border-radius: 50px;
+margin-left:10px}
+
+.landing_image {
+    height:600px;
+    position: absolute; top:30%; left:50%; right:0px; bottom: 0px;}
+
+table{
+margin-left: 150px;
+margin-top: 10px;
+width: 400px;
+height: 30px;
+background-color: hsl(0, 0%, 95%);
+border-radius: 10px;}
+
+p:empty{width: 20px;
+height: 10px;
+border-radius: 10px;}
+
+.text1{font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9em;
+color:	#666161}
+
+table:hover{background-color:hsl(0, 0%, 99%);
+    cursor: pointer;}
+
+table:hover .far{background-color:#5243C0 ;
+ }
+
+#user_items{ margin-top: 50px;}
+
+.date{color: #D3D3D3;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9em;}
+
+.acc_btn{padding:20px 40px;
+    border-radius: 20px;
+    background-color: #5243C0;
+    color: #ffffff;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.7em;
+    cursor: pointer;}
+
+    .acc_btn:hover{transform: scale(1.2);}  
